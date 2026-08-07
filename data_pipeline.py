@@ -32,11 +32,10 @@ def verify_target_distribution(df):
     
     print(f" Baseline State: {normal_count} Healthy Samples vs {failure_count} Failure Samples.")
     print(f" Operational Target Imbalance Ratio: {round((failure_count/total)*100, 2)}% Breakdown Rate.")
-    print(" -> [SUCCESS] Complexity documented for tutor review.")
 
 def execute_feature_stripping(df):
 
-    print("\n[PROGRESS] Enforcing Feature Selection & Leakage Prevention Protocol...")
+    print("\n Enforcing Feature Selection & Leakage Prevention Protocol...")
     
     # Isolate target variable
     y = df['Machine failure'].copy()
