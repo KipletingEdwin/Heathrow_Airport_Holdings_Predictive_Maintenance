@@ -40,8 +40,6 @@ def partition_and_scale_data(X, y):
 
 
 
-
-
 def extract_imbalance_weight(y_train):
 
     neg_count = np.sum(y_train == 0)
@@ -91,8 +89,6 @@ def execute_grid_search_tuning(X_train, y_train, scale_pos_weight_val):
     print(f" Extracted Optimal XGBoost Structure: {xgb_search.best_params_}")
     
     return rf_search.best_params_, xgb_search.best_params_
-
-
 
 
 

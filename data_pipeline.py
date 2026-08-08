@@ -1,5 +1,4 @@
 
-# import numpy as np
 import pandas as pd
 
 
@@ -67,19 +66,6 @@ def execute_feature_stripping(df):
 
 
 
-# if __name__ == "__main__":
-#     # 1. Load and inspect the dataset
-#     df_raw = load_and_inspect_data()
-    
-#     # 2. Check the class imbalance
-#     verify_target_distribution(df_raw)
-    
-#     # 3. Strip features and encode
-#     X, y = execute_feature_stripping(df_raw)
-    
-#     print("\n="*60)
-#     print(" Data Pipeline Execution Completed Successfully!")
-#     print("="*60)
 
 
 
